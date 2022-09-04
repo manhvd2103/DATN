@@ -1,0 +1,40 @@
+{
+    # Learning rate
+    "lr": 0.0001,
+    # Size of images to be resized before training
+    "image_size": 448,
+    # Size of output embedding vector
+    "embedding_size": 128,
+    # Batch size
+    "batch_size": 48,
+    # Numbers of centers for each class
+    "n_centers_per_class": 5,
+    # lambda is for calculating distance probability. See section 3.2 in the paper for more detail.
+    "lambda": 20,
+    # gamma is for calculating cross entropy loss. See section 3.2 in the paper for more detail.
+    "gamma": 0.1,
+    # tau is for regularization. See section 3.2 in the paper for more detail.
+    "tau": 0.,
+    # Margin factor
+    "margin": 0.01,
+    # Whether to use pretrained weight on ImageNet or not
+    "pretrained": True,
+    # loss function
+    "loss": "soft_triple",
+    # batch size
+    "batch_size": 32,
+    # Number of samples per reference classes
+    "n_samples_per_reference_class": -1,
+    # Number of iterations to print training logs
+    "log_frequency": 100,
+    # Number of iterations to run test
+    "validate_frequency": 1000,
+    # Weight path for model
+    "weight_path": "D:/Fix_DATN/src/models/weights_path/mobilenet_v3_small.pth",
+    # Reference path
+    "reference_dir": None,
+    # Check points path
+    "checkpoint_root_dir": "D:/Fix_DATN/src/checkpoints",
+    # Number epochs for training
+    "n_epochs": 30
+}

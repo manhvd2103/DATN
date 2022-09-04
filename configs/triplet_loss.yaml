@@ -1,0 +1,39 @@
+{
+    # Learning rate
+    "lr": 0.0001,
+    # Size of images to be resized before training
+    "image_size": 224,
+    # Size of output embedding vector
+    "embedding_size": 128,
+    # Numbers of classes to sample in each batch
+    "classes_per_batch": 12,
+    # Number of samples per class to sample in each batch
+    "samples_per_class": 4,
+    # Margin for triplet loss
+    "margin": 0.5,
+    # sample "batch_hard_triplets" or "batch_hardest_triplets"
+    "sampling_type": "batch_hard_triplets",
+    # Whether to use pretrained weight on ImageNet or not
+    "pretrained": True,
+    # Loss function
+    "loss": "tripletloss",
+    # Batch size
+    "batch_size": 32,
+    # Number of samples per reference classes
+    "n_samples_per_reference_class": -1,
+    # Number of iterations to print training logs
+    "log_frequency": 100,
+    # Number of iterations to run test
+    "validate_frequency": 1000,
+    # Weight path for model
+    "weight_path": "D:/Fix_DATN/src/models/weights_path/mobilenet_v3_small.pth",
+    # Reference path
+    "reference_dir": None,
+    # Check points path
+    "checkpoint_root_dir": "D:/Fix_DATN/src/checkpoints",
+    # Number epochs for training
+    "n_epochs": 30,
+    # Number queries
+    "k_queries": 3
+}
+

@@ -1,0 +1,15 @@
+{
+    "total_epoch": 120,
+    "current_epoch": 120,
+    "current_iter": 24000,
+    "metrics": {
+        "average_precision_at_1": 100.0,
+        "average_precision_at_5": 100.0,
+        "average_precision_at_10": 100.0,
+        "mean_average_precision": 100.0,
+        "top_1_accuracy": 100.0,
+        "top_5_accuracy": 100.0,
+        "top_10_accuracy": 100.0,
+        "normalized_mutual_information": 0.9997364613136641
+    }
+}

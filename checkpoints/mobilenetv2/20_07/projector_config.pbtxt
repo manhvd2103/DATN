@@ -1,0 +1,15 @@
+embeddings {
+  tensor_name: "train:00000"
+  metadata_path: "00000/train/metadata.tsv"
+  tensor_path: "00000/train/tensors.tsv"
+}
+embeddings {
+  tensor_name: "reference:00000"
+  metadata_path: "00000/reference/metadata.tsv"
+  tensor_path: "00000/reference/tensors.tsv"
+}
+embeddings {
+  tensor_name: "test:00000"
+  metadata_path: "00000/test/metadata.tsv"
+  tensor_path: "00000/test/tensors.tsv"
+}
